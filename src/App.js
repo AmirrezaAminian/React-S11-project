@@ -10,8 +10,7 @@ function App() {
     <Fragment>
       <Header/>
       <main>
-        {/* <Meals/> */}
-        hello
+        <Meals/>
       </main>
     </Fragment>
   );
