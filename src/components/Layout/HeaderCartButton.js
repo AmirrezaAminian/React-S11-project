@@ -10,8 +10,8 @@ const HeaderCartButton = props => {
 
    
     const numberOfCartItems = cartCtx.items.reduce((cur, item) => {
-      console.log(item  );
-      console.log(cur  );
+      console.log(item);
+      console.log(cur);
       return cur + item.amount;
     }, 0);
   
